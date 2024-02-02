@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="man00001" xmlns:bb="http://www.blackboard.com/content-packaging/">
+ <organizations default="toc00001">
+  <organization identifier="toc00001"/>
+ </organizations>
+ <resources>
+  <resource bb:file="00001_questions.dat" bb:title="Binary and Hex Formative Practice" identifier="00001_questions" type="assessment/x-bb-qti-test" xml:base="00001_questions"/>
+  <resource bb:file="00001_settings.dat" bb:title="Assessment Creation Settings" identifier="00001_settings" type="course/x-bb-courseassessmentcreationsettings" xml:base="00001_settings"/>
+ </resources>
+</manifest>

@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop>
+ <assessment title="Binary and Hex Formative Practice">
+  <assessmentmetadata>
+   <bbmd_asi_object_id>assessment_1</bbmd_asi_object_id>
+   <bbmd_asitype>Assessment</bbmd_asitype>
+   <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+   <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+   <bbmd_questiontype>Multiple Choice</bbmd_questiontype>
+   <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+   <bbmd_numbertype>none</bbmd_numbertype>
+   <bbmd_partialcredit/>
+   <bbmd_orientationtype>vertical</bbmd_orientationtype>
+   <bbmd_is_extracredit>false</bbmd_is_extracredit>
+   <qmd_absolutescore_max>16.0</qmd_absolutescore_max>
+   <qmd_weighting>0.1</qmd_weighting>
+  </assessmentmetadata>
+  <rubric view="All">
+   <flow_mat class="Block">
+    <material>
+     <mat_extension>
+      <mat_formattedtext type="HTML"/>
+     </mat_extension>
+    </material>
+   </flow_mat>
+  </rubric>
+  <presentation_material>
+   <flow_mat class="Block">
+    <material>
+     <mat_extension>
+      <mat_formattedtext type="HTML"/>
+     </mat_extension>
+    </material>
+   </flow_mat>
+  </presentation_material>
+  <section>
+   <sectionmetadata>
+    <bbmd_asi_object_id>section_0</bbmd_asi_object_id>
+    <bbmd_asitype>Section</bbmd_asitype>
+    <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+    <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+    <bbmd_questiontype>Multiple Choice</bbmd_questiontype>
+    <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+    <bbmd_numbertype>none</bbmd_numbertype>
+    <bbmd_partialcredit/>
+    <bbmd_orientationtype>vertical</bbmd_orientationtype>
+    <bbmd_is_extracredit>false</bbmd_is_extracredit>
+    <qmd_absolutescore_max>0.0</qmd_absolutescore_max>
+    <qmd_weighting>0.0</qmd_weighting>
+   </sectionmetadata>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_1_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the binary number in to hexadecimal&lt;br&gt;&lt;img width="68" height="15" align="bottom" alt="nr001-1.jpg" src="ppg/examview/BHFP/00001_res/nr001-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">2</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_2_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the binary number in to hexadecimal&lt;br&gt;&lt;img width="68" height="15" align="bottom" alt="nr002-1.jpg" src="ppg/examview/BHFP/00001_res/nr002-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">6C</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_3_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the binary number in to hexadecimal&lt;br&gt;&lt;img width="68" height="15" align="bottom" alt="nr003-1.jpg" src="ppg/examview/BHFP/00001_res/nr003-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">2F</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_4_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the binary number in to hexadecimal&lt;br&gt;&lt;img width="68" height="15" align="bottom" alt="nr004-1.jpg" src="ppg/examview/BHFP/00001_res/nr004-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">42</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_5_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the binary number in to hexadecimal&lt;br&gt;&lt;img width="68" height="15" align="bottom" alt="nr005-1.jpg" src="ppg/examview/BHFP/00001_res/nr005-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">6A</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_6_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the binary number in to hexadecimal&lt;br&gt;&lt;img width="68" height="15" align="bottom" alt="nr006-1.jpg" src="ppg/examview/BHFP/00001_res/nr006-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">4</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_7_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the binary number in to hexadecimal&lt;br&gt;&lt;img width="68" height="15" align="bottom" alt="nr007-1.jpg" src="ppg/examview/BHFP/00001_res/nr007-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">54</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_8_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the binary number in to hexadecimal&lt;br&gt;&lt;img width="68" height="15" align="bottom" alt="nr008-1.jpg" src="ppg/examview/BHFP/00001_res/nr008-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">4A</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_9_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the hexadecimal number to binary&lt;br&gt;&lt;img width="28" height="15" align="bottom" alt="nr009-1.jpg" src="ppg/examview/BHFP/00001_res/nr009-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">00101011</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_10_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the hexadecimal number to binary&lt;br&gt;&lt;img width="26" height="15" align="bottom" alt="nr010-1.jpg" src="ppg/examview/BHFP/00001_res/nr010-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">00100101</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_11_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the hexadecimal number to binary&lt;br&gt;&lt;img width="28" height="15" align="bottom" alt="nr011-1.jpg" src="ppg/examview/BHFP/00001_res/nr011-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">00101110</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_12_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the hexadecimal number to binary&lt;br&gt;&lt;img width="26" height="15" align="bottom" alt="nr012-1.jpg" src="ppg/examview/BHFP/00001_res/nr012-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">01000100</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_13_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the hexadecimal number to binary&lt;br&gt;&lt;img width="26" height="15" align="bottom" alt="nr013-1.jpg" src="ppg/examview/BHFP/00001_res/nr013-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">01100000</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_14_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the hexadecimal number to binary&lt;br&gt;&lt;img width="28" height="15" align="bottom" alt="nr014-1.jpg" src="ppg/examview/BHFP/00001_res/nr014-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">01001010</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_15_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the hexadecimal number to binary&lt;br&gt;&lt;img width="28" height="15" align="bottom" alt="nr015-1.jpg" src="ppg/examview/BHFP/00001_res/nr015-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">01111110</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+   <item maxattempts="0">
+    <itemmetadata>
+     <bbmd_asi_object_id>question_16_1</bbmd_asi_object_id>
+     <bbmd_asitype>Item</bbmd_asitype>
+     <bbmd_keywords>Convert to Hex , 16 bits , Decimal to hex</bbmd_keywords>
+     <bbmd_assessmenttype>Test</bbmd_assessmenttype>
+     <bbmd_sectiontype>Subsection</bbmd_sectiontype>
+     <bbmd_questiontype>Fill in the Blank</bbmd_questiontype>
+     <bbmd_is_from_cartridge>false</bbmd_is_from_cartridge>
+     <bbmd_numbertype>letter_lower</bbmd_numbertype>
+     <bbmd_partialcredit>false</bbmd_partialcredit>
+     <bbmd_orientationtype>vertical</bbmd_orientationtype>
+     <bbmd_is_extracredit>false</bbmd_is_extracredit>
+     <qmd_absolutescore_max>1.0</qmd_absolutescore_max>
+     <qmd_weighting>0.0</qmd_weighting>
+    </itemmetadata>
+    <presentation>
+     <flow class="Block">
+      <flow class="QUESTION_BLOCK">
+       <flow class="FORMATTED_TEXT_BLOCK">
+        <material>
+         <mat_extension>
+          <mat_formattedtext type="SMART_TEXT">Convert the hexadecimal number to binary&lt;br&gt;&lt;img width="30" height="15" align="bottom" alt="nr016-1.jpg" src="ppg/examview/BHFP/00001_res/nr016-1.jpg" border="0"&gt;</mat_formattedtext>
+         </mat_extension>
+        </material>
+       </flow>
+      </flow>
+      <flow class="RESPONSE_BLOCK">
+       <response_str ident="response" rcardinality="Single" rtiming="No">
+        <render_fib charset="us-ascii" columns="127" encoding="UTF_8" fibtype="String" maxchars="0" maxnumber="0" minnumber="0" prompt="Box" rows="1"/>
+       </response_str>
+      </flow>
+     </flow>
+    </presentation>
+    <resprocessing scoremodel="SumOfScores">
+     <outcomes>
+      <decvar defaultval="0.0" maxvalue="1.0" minvalue="0.0" varname="SCORE" vartype="Decimal"/>
+     </outcomes>
+     <respcondition title="answer_1">
+      <conditionvar>
+       <varequal case="No" respident="response">01101101</varequal>
+      </conditionvar>
+      <displayfeedback feedbacktype="Response" linkrefid="correct"/>
+      <displayfeedback feedbacktype="Response" linkrefid="answer_1"/>
+     </respcondition>
+     <respcondition title="incorrect">
+      <conditionvar>
+       <other/>
+      </conditionvar>
+      <setvar action="Set" variablename="SCORE">0.0</setvar>
+      <displayfeedback feedbacktype="Response" linkrefid="incorrect"/>
+     </respcondition>
+    </resprocessing>
+    <itemfeedback ident="correct" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="incorrect" view="All">
+     <flow_mat class="Block"/>
+    </itemfeedback>
+    <itemfeedback ident="answer_1" view="All">
+     <solution feedbackstyle="Complete" view="All">
+      <solutionmaterial>
+       <flow_mat class="Block"/>
+      </solutionmaterial>
+     </solution>
+    </itemfeedback>
+   </item>
+  </section>
+ </assessment>
+</questestinterop>

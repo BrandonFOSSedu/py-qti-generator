@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="man00001" xmlns:bb="http://www.blackboard.com/content-packaging/">
+ <organizations default="toc00001">
+  <organization identifier="toc00001"/>
+ </organizations>
+ <resources>
+  <resource bb:file="" bb:title="" identifier="" type="assessment/x-bb-qti-test" xml:base=""/>
+  <resource bb:file="" bb:title="" identifier="" type="course/x-bb-courseassessmentcreationsettings" xml:base=""/>
+ </resources>
+</manifest>

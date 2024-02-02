@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PyQTIGenerator/PyQTIGenerator.py
+PyQTIGenerator/__init__.py
+PyQTIGenerator.egg-info/PKG-INFO
+PyQTIGenerator.egg-info/SOURCES.txt
+PyQTIGenerator.egg-info/dependency_links.txt
+PyQTIGenerator.egg-info/requires.txt
+PyQTIGenerator.egg-info/top_level.txt
